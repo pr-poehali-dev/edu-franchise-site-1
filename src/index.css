@@ -84,4 +84,25 @@
   .btn-secondary {
     @apply bg-franchise-orange hover:bg-franchise-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg;
   }
+
+  .animate-gradient-text {
+    background: linear-gradient(-45deg, #f97316, #ff6b35, #f97316, #ea580c);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradient-text 3s ease infinite;
+  }
+}
+
+@keyframes gradient-text {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
