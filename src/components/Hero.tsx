@@ -26,20 +26,20 @@ const Hero = () => {
               </div>
 
               <h1 className="text-5xl lg:text-7xl font-montserrat font-bold mb-8 leading-tight">
-                Образовательная
+                Откройте собственную
                 <br />
                 <span className="text-franchise-orange animate-gradient-text">
-                  франшиза
+                  образовательную локацию
                 </span>
                 <br />
                 <span className="text-4xl lg:text-5xl text-blue-100">
-                  будущего
+                  «Мастерская будущего»
                 </span>
               </h1>
 
               <p className="text-xl lg:text-2xl mb-10 text-blue-100 leading-relaxed max-w-lg">
-                Откройте успешный образовательный центр с нашей проверенной
-                системой. Полная поддержка, готовые программы, высокая прибыль.
+                Зарабатывайте от 280 000 рублей в месяц. Возьмите будущее в свои
+                руки!
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 mb-12">
